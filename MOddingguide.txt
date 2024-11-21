@@ -1,0 +1,32 @@
+Modding Guide
+
+UABEA: [uabea](https://github.com/nesrak1/UABEA)
+**---------------**
+ApkToolkit: [ApkToolkit](https://xdaforums.com/t/tool-apk-toolkit-v1-2-windows.4572881/)
+**-----------------------**
+Java: [Java](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html#license-lightbox)
+**-----------**
+.NetFramework: [dotnet](https://download.visualstudio.microsoft.com/download/pr/b6f19ef3-52ca-40b1-b78b-0712d3c8bf4d/426bd0d376479d551ce4d5ac0ecf63a5/dotnet-sdk-8.0.302-win-x64.exe)
+**-------------------------**
+
+
+**Decompiling:**
+1. *Go to the apktoolkit directory (if you saved it in your downloads folder then the directory will be "Downloads\APK_Toolkit_by_0xd00d)"*
+
+1.5. *you can change the theme of apktoolkit by going to the directory, then "ApkToolkit.ini" open in a text editor and change "skin=0" to "skin=1"*
+
+2. *Download the apk you want to mod, then click Ctrl+O at the same time and select the apk you want to mod*
+
+3. *Click the decompile button and wait*
+
+
+**Modding:**
+1. *Open "UABEA" (if you saved it in your downloads folder then the directory will be "Downloads\uabea-windows") PS. the file that you open is called "UABEAvalonia.exe" or "UABEAvalonia"*
+
+1.5. *if you want to change the theme, in UABEA click the "Options" button at the top and select "Toggle Dark Mode"*
+
+2. *Click Ctrl+O and go to your apktoolkit folder go to "1 - Decompiled" select the folder of the game you modded > Assets > Bin > Data, and select data.unity3d, then click file and save it **AS A NEW FILE** in your downloads folder*
+
+3. *Click the drop down that says "globalgamemanagers" and select "level0" then click info.*
+
+4. *Scroll down until you see the "GameObject" section (where there's a whole bunch of slots that say "GameObject" and have a grey 3D cube icon) then click on one of them and on the right, select view scene (this will make it more organized and so much easier*
